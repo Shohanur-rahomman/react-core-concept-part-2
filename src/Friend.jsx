@@ -1,8 +1,13 @@
-export default function Friend({friend}) {
+import './App.css'
+
+export default function Friend({ friend }) {
+    const {name,email,phone } = friend;
+    
     return (
-        <div>
-            <h2>name : {friend.name}</h2>
-            <h2>email : {friend.email}</h2>
+        <div className="cart">
+            <h2>name : {name}</h2>
+            <p>email : {email }</p>
+            <p>phone: {phone}</p>
         </div>
     )
 }

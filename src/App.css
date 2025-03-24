@@ -40,3 +40,10 @@
 .read-the-docs {
   color: #888;
 }
+.cart{
+  background-color: rgb(225, 253, 244);
+  border-radius: 20px;
+  padding: 20px;
+  border: 2px solid skyblue;
+  margin-bottom: 20px;
+}
